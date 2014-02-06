@@ -45,10 +45,7 @@ public class SlotMachineActivity extends Activity {
 
         setContentView(R.layout.slot_machine_layout);
 
-        MobileCore.init(this,"8YKF89U9YHXZUIMHFEQ0UDC1T9TOY", LOG_TYPE.DEBUG);
-    	 MobileCore.getSlider().setContentViewWithSlider(this, R.layout.slot_machine_layout);
-    	 
-    	 
+       
     	 //////////////////score
     	 
     	 usercoinupdate();
