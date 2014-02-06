@@ -96,15 +96,6 @@
     </LinearLayout>
     </LinearLayout>
 
-    <com.google.ads.AdView
-            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
-            android:id="@+id/ad"
-            android:layout_height="wrap_content"
-             android:layout_width="fill_parent"
-             ads:adUnitId="a152bdecb4ac74f"
-        ads:adSize="BANNER"
-        ads:refreshInterval="30"
-            ads:loadAdOnCreate="true" 
-            />
+   
 </LinearLayout>
 </ScrollView>
