@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"> 
+<LinearLayout 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/na"
+    android:layout_width="fill_parent">
+     <TextView android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#00FFFF"
+        android:text=""/>
+     <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad"
+            android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             ads:adUnitId="a152bdecb4ac74f"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+            ads:loadAdOnCreate="true" 
+            />
+     <TextView android:id="@+id/pwd_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:text=""/>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <kankan.wheel.widget.WheelView android:id="@+id/slot_1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <kankan.wheel.widget.WheelView android:id="@+id/slot_2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <kankan.wheel.widget.WheelView android:id="@+id/slot_3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+      <LinearLayout
+       android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+   <Button android:id="@+id/btn_mix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:textSize="18sp"
+        android:textColor="#FFFF00"
+        android:background="@drawable/button"
+        android:text="  Roll It "/>
+   
+    
+    <LinearLayout
+       android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button android:id="@+id/btn_share"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:textColor="#FFFF00"
+        android:background="@drawable/button"
+        android:text=" Let yout friend know "/>
+     <Button android:id="@+id/btn_shout"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:textColor="#FFFF00"
+        android:background="@drawable/button"
+        android:text="Shout  "/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad"
+            android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             ads:adUnitId="a152bdecb4ac74f"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+            ads:loadAdOnCreate="true" 
+            />
+</LinearLayout>
+</ScrollView>
